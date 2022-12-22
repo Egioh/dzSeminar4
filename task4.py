@@ -11,6 +11,8 @@ list.pop(len(list)-1)
 list.append("= 0")
 print(list)
 temp=0
+data= open("mnogochlen.txt",'w')
+data.writelines("")
 data= open("mnogochlen.txt",'a')
 for i in range(len(list)):
     list[i]=str(list[i])
